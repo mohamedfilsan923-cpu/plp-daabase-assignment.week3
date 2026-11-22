@@ -1,0 +1,19 @@
+Question 1:Create the student Table
+CREATE TABLE student (
+    id INT PRIMARY KEY,
+    fullName VARCHAR(100),
+    age INT
+);
+
+Question 2: Insert at Least 3 Records into student
+INSERT INTO student (id, fullName, age)
+VALUES
+    (1, 'Amina Hassan', 19),
+    (2, 'Brian Kamau', 18),
+    (3, 'Cynthia Otieno', 21);
+
+
+Question 3: Update the Age of the Student with ID 2
+UPDATE student
+SET age = 20
+WHERE id = 2;
